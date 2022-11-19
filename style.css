@@ -350,9 +350,11 @@ body, html {
     text-decoration: none;    
 }
 
-.main__btn .fa-phone {
-    font-size: 1.8rem;    
+.main__btn .fa-phone, .fa-whatsapp {
+    font-size: 2rem;    
 }
+
+
 
 
 .main__btn:hover {
