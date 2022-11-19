@@ -1,9 +1,14 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
     scroll-behavior: smooth;
+}
+
+body, html {
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar {
@@ -14,7 +19,7 @@
     align-items: center;
     font-size: 14px;
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 999;
 }
 
@@ -285,6 +290,7 @@
     padding: 0 50px;
 }
 
+
 .main__content {
     color: #fff;
     width: 100%;
@@ -328,16 +334,13 @@
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
-    color: #fff;
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
     transition: all 0.3s;
     outline: none;
-
     
-    background-size: 100% 100%;
-
+   /* background-size: 100% 100%; */
 }
 
 .main__btn a {
@@ -350,6 +353,7 @@
 .main__btn:hover {
     background-position: right bottom;
     background-size: 500% 100%;
+    
     /*background-position: -217px;*/
   }
 
@@ -362,6 +366,7 @@
     margin: 10px;
     height: 500px;
     width: 500px;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -420,7 +425,6 @@
         margin-top: 1rem;
         font-size: 1.5rem;
     }
-
 }
 
 /* Mobile response*/
@@ -456,7 +460,7 @@
 /*  Services section */
 
 .services {
-    background: #131313;
+    background: #222020;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -481,6 +485,7 @@
     display: grid;
     grid-template-columns:  1fr 1fr 1fr 1fr;
     grid-template-rows:  1fr;
+    height: 90%;/* added*/
 }
 
 .services__card {
@@ -523,7 +528,7 @@
 
 .services__btn {
     display: flex;
-    justify-content:  center;
+    justify-content: center;
     margin-top: 16px;
 }
 
