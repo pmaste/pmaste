@@ -173,7 +173,7 @@ body, html {
     }
 
     .navbar__menu.active {
-        background: #131313;
+        background: #040165;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
