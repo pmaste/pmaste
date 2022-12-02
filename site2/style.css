@@ -687,17 +687,33 @@ body, html {
 
 @media screen and (max-width: 768px){
 	
+    .main__content {
+        margin-bottom: 0rem;
+    }
+
 	.main1{
 		padding: 3rem;
 	}
 	
 	.main__img--container2{
 		display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         justify-content: center;
         padding: 40px 0px;		
 	}
-	
+
+
+    .main__img--card2 .color{
+        width: 90px;
+    }
+
+    #card-2 .fa-solid, .fa-regular {
+        font-size: 2rem;
+    }
+    
+    .white {
+        font-size: 1rem;
+    }
 	
 
 }
