@@ -788,7 +788,7 @@ body, html {
 
 
 .social__media {
-    max-width: 1000px;
+    max-width: 1200px;
     width: 100%;
     padding-top: 1.5rem;
 }
@@ -798,13 +798,13 @@ body, html {
     justify-content: space-between;
     align-items: center;
     width: 95%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 40px auto 0 auto;
 }
 
 .footer__logo {
     display: flex;
-    
+    font-size: 1rem;    
 }
 
 .footer__logo a{
@@ -835,7 +835,13 @@ body, html {
     width: 200px;    
 }
 
+#aa{
+    font-size: 1.5rem;
+}
 
+.mail {
+    text-decoration: nones;
+}
 
 @media screen and (max-width: 820px){
     .footer__links {
