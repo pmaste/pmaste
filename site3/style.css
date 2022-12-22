@@ -41,7 +41,7 @@ body, html {
 
 .navbar {
     background-color: #040165;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@ body, html {
 .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 100px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -72,6 +72,7 @@ body, html {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1.2rem;
+    
 }
 
 .navbar__menu {
@@ -81,7 +82,7 @@ body, html {
 }
 
 .navbar__item {
-    height: 80px;
+    height: 100px;
     font-weight: 500;
 }
 
@@ -152,7 +153,7 @@ body, html {
     .navbar__container{
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: 100px;
         z-index: 1;
         width: 100%;
         max-width: 1300px;
@@ -217,7 +218,7 @@ body, html {
         justify-content: center;
         align-items: center;
         width: 80%;
-        height: 80px;
+        height: 100px;
         margin: 0px;
 
     }
@@ -260,12 +261,13 @@ body, html {
     /*background: #58bfdf;*/
     /*background: linear-gradient(to bottom,#82C0CC 0%, #EDE7E3 120% );*/
     background: #ecfbff;
-    padding: 200px 0px;
+    padding: 50px 0px;
 }
 
 .hero__container {
     display: flex;
-    flex-direction: column;
+    flex: 350 1;
+    /*flex-direction: column;*/
     justify-content: center;
     align-items: center;
     max-width: 1200px;
@@ -275,10 +277,20 @@ body, html {
     padding: 30px;
 }
 
+.hero2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 25px;
+    
+}
+
 .hero__heading {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-bottom: 24px;
     color: #040165;
+    width: 450px;
+    text-transform: uppercase;
 }
 
 .hero__heading span {
@@ -288,7 +300,7 @@ body, html {
 }
 
 .hero__description {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #323031;
 }
 
@@ -320,22 +332,22 @@ body, html {
     }   
 }
 
-/*  About section */ 
+/*  Servizi  */ 
 
 .main {
     background-color: #EDE7E3;
-    padding: 10rem 0;
+    padding: 50px 0;
 }
 
 .about {
     /*background: linear-gradient(to right,#489FB5 -150%, #EDE7E3 120% );*/
     background: #fff;
-    padding: 10rem 0;    
+    padding: 50px 0;    
 }
 
 .main__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex: 400px 1;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -350,35 +362,42 @@ body, html {
 .main__content {
     color: #fff;
     width: 100%;
+    padding: 0 20px;
 } 
 
 .main__content h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #040165;
     background-size: 100%;
     text-transform: uppercase;
-    margin-bottom: 32px;
+    /*margin-bottom: 32px;*/
 }
 
+.main__content ul{
+    font-size: 1.2rem;
+    color: #323031;
+    background-size: 100%;
+    text-align: left;
+    padding: 20px 0;
+}
+
+/*
 .main__content h2{
     font-size: 2rem;
     color: #323031;
     background-size: 100%;
-}
+}*/
 
-.main__content h2.orari{
-    font-size: 1.5rem;    
-}
 
 .main__content p {
-    color: #040165;
+    color: #323031;
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
 .main__btn {
-    font-size: 1.8rem;    
+    font-size: 1.5rem;    
     background: #040165;
     border-style: none;
     padding: 20px 60px;
@@ -400,6 +419,34 @@ body, html {
 
 .main__btn .fa-phone, .fa-whatsapp {
     font-size: 2rem;    
+}
+
+
+/*  Servizi  Marchi*/ 
+
+.main__container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.marchi {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 80px;
+}
+
+.item {
+    justify-self: center;
+    align-self: center;
 }
 
 
@@ -740,6 +787,7 @@ body, html {
 }
 
 /*  Footer  */
+
 .footer__container {
     background-color: #040165;
     padding: 3rem 0;
@@ -747,36 +795,45 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 /* About us / Contact us */
 
-.footer__link--wrapper {
+.footer__line1 {
     display: flex;
-    justify-content: space-between;    
-}
-
-.footer__link--items {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     margin: 0px;
     text-align: left;
-    width: 450px;
+    width: 1200px;
     box-sizing: border-box;
 }
 
-.footer__link--items h2{
-    margin-bottom: 12px;
-    color: #fff;
-    border-bottom: 1px solid #fff; 
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 0 20px;
 }
 
-.footer__link--items a {
+.foot1{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__line1 a {
     color: #fff;
     text-decoration: none;
-    margin-bottom: 0.5rem;
     transition: 0.3 ease-out;
+    text-decoration: none;
+    padding: 0px 0;
+}
+
+.footer__line1 p {
+    padding: 3px 0;
 }
 
 .footer__link--items a:hover {
@@ -784,13 +841,16 @@ body, html {
     transition: 0.3 ease-out;
 }
 
-/* bottom links */
+hr{
+    margin-top: 10px;
+}
 
+/* bottom links */
 
 .social__media {
     max-width: 1200px;
     width: 100%;
-    padding-top: 1.5rem;
+    padding-top: 0rem;
 }
 
 .social__media--wrap {
@@ -802,21 +862,6 @@ body, html {
     margin: 40px auto 0 auto;
 }
 
-.footer__logo {
-    display: flex;
-    font-size: 1rem;    
-}
-
-.footer__logo a{
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    width: 200px;
-}
 
 .website__rights{
     color: #fff;
@@ -825,23 +870,17 @@ body, html {
     display: flex;
     justify-content: center;
  }
+ 
 
-.social__icons a{
+.website__rights a{
     color: #fff;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
     text-decoration: none;
-    width: 200px;    
 }
 
 #aa{
     font-size: 1.5rem;
 }
 
-.mail {
-    text-decoration: nones;
-}
 
 @media screen and (max-width: 820px){
     .footer__links {
