@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giordanengo Riparazioni</title>
+    <title>Giordanengo Riparazioni2</title>
     <link rel="stylesheet" href="style.css"/>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -21,7 +21,8 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="#home" id="navbar__logo">Giordanengo Riparazioni</a>
+           <!--<a href="#home" id="navbar__logo">Giordanengo Riparazioni</a> -->
+            <div  href="#home" id="navbar__logo" ><img src="logo3.PNG" alt="" style="height: 100px;"> </div>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -32,17 +33,17 @@
                     <a href="#home" class="navbar__links" id="home-page">HOME</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#about" class="navbar__links" id="about-page">CHI SONO</a>
+                    <a href="#about" class="navbar__links" id="about-page">SERVIZI</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#services" class="navbar__links" id="services-page">SERVIZI</a>
+                    <a href="#services" class="navbar__links" id="services-page">CHI SONO</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#services" class="navbar__links" id="services-page">INFO</a>
+                    <a href="#services" class="navbar__links" id="services-page">CONTATTI</a>
                 </li>
-                <li class="navbar__btn">
+                <!--<li class="navbar__btn">
                     <a href="#sign-up" class="button" id="signup"><i class="fa-solid fa-phone"></i><span>&nbsp</span> Contattaci</a>
-                </li>
+                </li>-->
             </ul>
         </div>
     </nav>
@@ -50,59 +51,87 @@
     <!-- Hero -->
     <div class="hero" id="home">
         <div class="hero__container">
-            <h1 class="hero__heading">Assistenza Specializzata Elettrodomestici </h1>
-            <h1 class="hero__heading">  <span>20 Anni Di Esperienza</span></h1>
-            <p class="hero__description">Contatta il nostro team di assistenza per fissare un appuntamento</p>
-            <button class="main__btn"> <a href="#">Contattaci</a></button>
+            <div class="hero2">
+                <img src="forno.png" alt="" width="350" height="350">
+            </div>
+            <div class="hero2">
+                <h1 class="hero__heading">Da 20 anni, riparazione e vendita di elettrodomestici a Savigliano</h1>
+                <p class="hero__description">La ditta Giordanengo Riparazioni a Savigliano, in provincia di Cuneo, è specializzata nella riparazione di elettrodomestici di grossa per il settore privato. Vengono eseguiti interventi tempestivi, anche a domicilio: per tutte le riparazioni o le sostituzioni utilizziamo esclusivamente pezzi di ricambio originali, forniti direttamente dalle case madri. L'azienda è oggi una realtà in grado di rispondere con puntualità ed efficienza alle richieste di un mercato sempre più esigente</p>
+                <button class="main__btn"> <a href="#"> <i class="fa-solid fa-phone"></i> &nbsp 375 560 7187</a></button>
+            </div>                  
         </div>
     </div>
    
-    <!-- About section -->
+    <!-- Servizi -->
     <div class="about" id="about">
         <div class="main__container">
             <div class="main__img--container">
-                <div class="main__img--card"><img src="pic2.png" alt=""></div>
+                <div class="main__img--card"><img src="pic2.png" alt="" width="350" height="350"></div>
             </div>
             <div class="main__content">
-                <h1>Contattaci per riparare il tuo elettrodomestico</h1>
-                <h2 class="orari">Orari</h2>
-                <h2 class="orari">LUN-VEN | 09:00-20:00</h2>
-                <h2 class="orari"> SAB-DOM | 10:00-15:00</h2>
-                <p>Orari flessibili per soddisfare le tue esigenze</p>
-                <button class="main__btn"> <a href="tel:00393389831018?"><i class="fa-solid fa-phone"></i> Contattaci </a></button>
-                <button class="main__btn"> <a href="https://api.whatsapp.com/send?phone=393389831018"><i class="fab fa-whatsapp"></i> Chat Whatsapp </a></button>
+                <h1>Servizi</h1>
+                <ul class="list">
+                    <li>Riparazioni elettrodomestici (forno, piano cottura gas e induzione, cappa, lavastoviglie, frigorifero, lavabiancheria, asciugatrice)</li>
+                    <li>Vendita ricambi originali*</li>
+                    <li>Vendita elettrodomestici*</li>
+                    <li>Installazione e posa elettrodomestici</li>
+                    <li>Consulenza tecnica</li>
+                </ul>
+                <p>Costi: 40€ che comprendono la chiamata e tutta la manodopera necessaria per la riparazione (eventuali ricambi esclusi)</p>
+                <!--<button class="main__btn"> <a href="tel:00393389831018?"><i class="fa-solid fa-phone"></i> Contattaci </a></button>
+                <button class="main__btn"> <a href="https://api.whatsapp.com/send?phone=393389831018"><i class="fab fa-whatsapp"></i> Chat Whatsapp </a></button>-->
             </div>            
         </div> 
     </div>
+
+    <!-- Servizi Marchi-->
+    <div class="about">
+        <div class="main__container2">
+            <div> 
+                <h1>Principali Marchi</h1>
+            </div>
+            <div class="marchi">
+                <div class="item"><img src="whir.png" alt="" width="200" height="auto"></div>
+                <div class="item"><img src="indesit.png" alt="" width="200" height="auto"></div>
+                <div class="item"><img src="hotpoint.png" alt="" width="200" height="auto"></div>
+                <div class="item"><img src="ignis.jpg" alt="" width="200" height="auto"></div>
+                <div class="item"><img src="Bauknecht.png" alt="" width="200" height="auto"></div>
+                <div class="item"><img src="candy.png" alt="" width="200" height="auto"></div>
+                <div class="item"><img src="Electrolux.png" alt="" width="200" height="auto"></div>
+                <div class="item"><img src="bosh.jpg" alt="" width="200" height="auto"></div>
+                <div class="item"><img src="smeg.jpg" alt="" width="200" height="auto"></div>
+            </div>
+        </div>
+    </div>
     
-    <!-- Services section -->
+    <!-- Chi sono -->
     <div class="services" id="services">
-        <h1>Servizi</h1>
+        <h1>Chi Sono</h1>
         <div class="services__wrapper">
             <div class="services__card">
                 <h2>Riparazioni Elettrodomestici</h2>                
-                <div class="services__btn"><img src="lava.png" alt="" width="200" height="200"></div>
+                <div class="services__btn"><img src="lava.png" alt="" width="150" height="200"></div>
             </div>
             <div class="services__card">
                 <h2>Vendita Ricambi Originali</h2>
-                <div class="services__btn"><img src="lavas.png" alt="" width="200" height="200"></div>
+                <div class="services__btn"><img src="lavas.png" alt="" width="150" height="200"></div>
             </div>
             <div class="services__card">
                 <h2>Vendita Elettrodomestici (Garanzia Legale Europea 24 Mesi)</h2>
-                <div class="services__btn"><img src="frigo.png" alt="" width="200" height="200"></div>
+                <div class="services__btn"><img src="frigo.png" alt="" width="150" height="200"></div>
             </div>
             <div class="services__card">
                 <h2>Installazione e Posa Elettrodomestici</h2>
-                <div class="services__btn"><img src="forno.png" alt="" width="200" height="200"></div>
+                <div class="services__btn"><img src="forno.png" alt="" width="150" height="200"></div>
             </div>
             <div class="services__card">
                 <h2>Consulenza Tecnica</h2>
-                <div class="services__btn"><img src="forno.png" alt="" width="200" height="200"></div>
+                <div class="services__btn"><img src="forno.png" alt="" width="150" height="200"></div>
             </div>
         </div>
     </div> 
 
-    <!-- Feature section -->
+    <!-- Contatti -->
     <div class="main1" id="sign-up">
         <div class="main__container">
             <div class="main__content">
@@ -148,36 +177,35 @@
         </div>
    </div>
 
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64219.92442058752!2d7.666551807716841!3d44.65535838060282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cd510a6aaa2a2d%3A0x96df2703f09e9458!2sPiazza%20Santarosa%2C%2012038%20Savigliano%20CN%2C%20Italia!5e0!3m2!1sit!2snl!4v1670755515606!5m2!1sit!2snl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     <!-- Footer -->
    
     <div class="footer__container">
-        <div class="footer__links">
-            <div class="footer__link--wrapper">
-                <div class="footer__link--items">
-                    <h2>Link veloci</h2>
-                    <a href="/">Zona di competenza</a>
-                    <a href="/">Dove interveniamo</a>
-                    <a href="/">Marchi</a>
+        <div class="footer__line1">
+            <div class="foot1"><img src="logo3.PNG" alt="" style="width: 260px;"></div>
+            <div class="foot1">
+                <div class="foot1">
+                    <p><a href="" class="website__rights mail" target="_blank"> <i class="fa-solid fa-phone" id="aa"></i> &nbsp (+39) 375 560 7187</a></p>
+                    <p><a href="" class="website__rights mail" target="_blank"> <i class="fa fa-envelope" id="aa"></i> &nbsp giordanengotino@gmail.com</a></p>
+                </div>                
+            </div>   
+            <div class="foot1">
+                <div class="foot1">
+                    <p>Lun - Ven: 9.00 / 18.00</p>
+                    <p>Sab - Dom: chiuso</p>
                 </div>
-                <div class="footer__link--items">
-                    <h2>Info e Contatti</h2>
-                    <a href="/Contatti.html">Contatti</a>
-                    <a href="/">Privacy</a>
-                    <a href="/">Condizioni d'uso e Cookies</a>
-                </div>
-            </div>
-         
+            </div>                                        
         </div>
-        
+
+        <hr style="width:40%;text-align:left;margin-left:0">
 
         <section class="social__media">
             <div class="social__media--wrap">
-                <p class="website__rights">© Giordanengo Riparazioni 2022</p>        
-                <p class="website__rights"> <i class="fa fa-phone-square" id="aa"></i> &nbsp (+39) 375 560 7187</p>
-                
-                <p class="website__rights">P.IVA 04027310046</p>
-                <p><a href="" class="website__rights mail" target="_blank"> <i class="fa fa-envelope" id="aa"></i> &nbsp giordanengotino@gmail.com</a></p>
-                                
+                <p class="website__rights">© Giordanengo Riparazioni 2022</p>                    
+                <p class="website__rights">P.I. 04027310046</p>
+                <p class="website__rights"> <a href="/">Privacy Policy</a> </p>
+                <p class="website__rights"> <a href="">Cookies Policy</a> </p>                                
             </div>
         </section>
     </div>
